@@ -1,6 +1,8 @@
 
 const express = require("express");
 const app = express();
+const fs = require("fs")
+
 
 // Clarify my port
 const PORT = process.env.PORT || 8080;
@@ -10,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+const apiroute = require("./Develop/routes/apiroutes")(app);
+const htmlroute = require("./Develop/routes/htmlroute")(app);
 
 // Listener; Starts server
 app.listen(PORT, function(){
