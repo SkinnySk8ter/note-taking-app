@@ -21,4 +21,5 @@ const htmlroutes = function (app) {
         res.sendFile(path.join(__dirname, "../public/index.html"));
     });
 }
+
 module.exports = htmlroutes
