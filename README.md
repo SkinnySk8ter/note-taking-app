@@ -13,10 +13,12 @@ I WANT to be able to delete notes I've written before
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 
-HOW TO RUN
+HOW TO RUN 
 Open terminal
+Clone the file into an empty folder
 run the command 'npm install'
-then run 'npm start'
+run 'npm start'
+Once connected to the server - type in localhost:(the number the server is listening on) in web broswer
 
 Currently have the ability to either add new notes or delete existing ones. There is not an update button yet (Just in case you wanted to add something new to an already existing note).
 
