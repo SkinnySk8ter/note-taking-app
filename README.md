@@ -19,3 +19,5 @@ run the command 'npm install'
 then run 'npm start'
 
 Currently have the ability to either add new notes or delete existing ones. There is not an update button yet (Just in case you wanted to add something new to an already existing note).
+
+![notetakerpic](https://user-images.githubusercontent.com/54759646/75207541-0536e680-5747-11ea-8384-84176bbe09e4.JPG)
